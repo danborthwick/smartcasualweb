@@ -3,35 +3,50 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>Dan Borthwick by danborthwick</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
+    <a id="forkme_banner" href="https://github.com/danborthwick/smartcasualweb">View on GitHub</a>
+    <div class="shell">
 
-        <header>
-          <h1>Dan Borthwick</h1>
-          <h2>Technology Consultant - Game Developer</h2>
-        </header>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Dan Borthwick</h1>
+            <h2>Technology Consultant - Game Developer</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/danborthwick/smartcasualweb/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/danborthwick/smartcasualweb/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/danborthwick/smartcasualweb" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/danborthwick/smartcasualweb/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/danborthwick/smartcasualweb/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-        <hr>
 
-        <section id="main_content">
-          <p>Hello, and welcome to my site. I am a freelance Technology Consultant and Game Developer based in Melbourne, Australia.</p>
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>Hello, and welcome to my site. I am a freelance Technology Consultant and Game Developer based in Melbourne, Australia.</p>
 
 <h3>
 <a id="agency-and-consulting" class="anchor" href="#agency-and-consulting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Agency and Consulting</h3>
@@ -43,7 +58,7 @@
 <h3>
 <a id="game-development" class="anchor" href="#game-development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Development</h3>
 
-<p>Over a decade of experience in the games industry with senior management positions at a number of notable studios, including Technical Director of <a href="http://company.king.com/">King</a>'s London studio, founding a new London studio for <a href="http://www.naturalmotion.com/company">NaturalMotion</a> and one of the original developers at Facebook gaming startup <a href="https://techcrunch.com/2009/11/09/not-playing-around-electronic-arts-buys-playfish-for-275-million/">Playfish</a>, later acquired by Electronic Arts.</p>
+<p>Over a decade of experience in the games industry with senior management positions at a number of notable studios, including Technical Director of <a href="http://company.king.com/">King</a>'s London studio, founding a new London studio for <a href="http://www.naturalmotion.com/company">NaturalMotion</a> and was one of the original developers at Facebook gaming startup <a href="https://techcrunch.com/2009/11/09/not-playing-around-electronic-arts-buys-playfish-for-275-million/">Playfish</a>, later acquired by Electronic Arts.</p>
 
 <p>I can sometimes be found exploring new game projects at <a href="http://thearcade.melbourne/">The Arcade</a>. </p>
 
@@ -55,15 +70,22 @@
 <p>p: +61 416 637307</p>
 
 <p><a href="https://www.linkedin.com/in/danborthwick">LinkedIn</a></p>
-        </section>
+      </section>
 
-        <footer>
-          Dan Borthwick is maintained by <a href="https://github.com/danborthwick">danborthwick</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/danborthwick">danborthwick</a> can be found on <a href="https://github.com/danborthwick/smartcasualweb">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
 
-        
-      </div>
     </div>
+
+    
   </body>
 </html>
