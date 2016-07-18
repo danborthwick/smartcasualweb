@@ -1,101 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
+<div class="home">
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Dan Borthwick</title>
-  </head>
+  <h1 class="page-heading">Posts</h1>
 
-  <body>
-    <!-- <a id="forkme_banner" href="https://github.com/danborthwick/smartcasualweb">View on GitHub</a> -->
-    <div class="shell">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Dan Borthwick</h1>
-            <h2>Technology Consultant - Game Developer</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <section id="downloads">
-        <span class="inner">
-          <a class="zip"></a><a class="tgz"></a>
-<!--           <a href="https://github.com/danborthwick/smartcasualweb/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/danborthwick/smartcasualweb/tarball/master" class="tgz"><em>download</em> .TGZ</a>
- -->        </span>
-      </section>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <p>Hello, and welcome to my site. I am a freelance Technology Consultant and Game Developer based in Melbourne, Australia.</p>
-<h3></h3>
-<h4>
-<a id="agency-and-consulting" class="anchor" href="#agency-and-consulting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Agency and Consulting</h4>
-
-<p>I have held several roles with digital agencies, including Technical Director of innovative game design agency <a href="http://hideandseek.net">Hide&amp;Seek</a> and freelance TD roles at <a href="https://convertagency.com/">Nerv</a> and <a href="https://www.crunchbase.com/organization/pleo-2#/entity">Pleo</a>. </p>
-
-<p>Most recently I've been working with <a href="http://www.wearefuturegov.com/">FutureGov</a>, bringing digital and design thinking to public services.</p>
-
-<h4>
-<a id="game-development" class="anchor" href="#game-development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Development</h4>
-
-<p>Over a decade of experience in the games industry with senior management positions at a number of notable studios, including Technical Director of <a href="http://company.king.com/">King</a>'s London studio, founding a new London studio for <a href="http://www.naturalmotion.com/company">NaturalMotion</a> and was one of the original developers at Facebook gaming startup <a href="https://techcrunch.com/2009/11/09/not-playing-around-electronic-arts-buys-playfish-for-275-million/">Playfish</a>, later acquired by Electronic Arts.</p>
-
-<p>I can sometimes be found exploring new game projects at <a href="http://thearcade.melbourne/">The Arcade</a>. </p>
-
-<h4>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h4>
-
-<p>e: <a href="mailto:dan@smartcasual.cc">dan@smartcasual.cc</a></p>
-
-<p>p: +61 416 637307</p>
-<br>
-
-<div align="center" id="linked-in">
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="danborthwick"><a class="LI-simple-link" href='https://au.linkedin.com/in/danborthwick?trk=profile-badge'>Dan Borthwick</a></div>
 </div>
-
-<!-- <div align="center" class="github-card" data-github="danborthwick" data-width="400" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
- -->
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <!-- <p>this project by <a href="https://github.com/danborthwick">danborthwick</a> can be found on <a href="https://github.com/danborthwick/smartcasualweb">GitHub</a></p> -->
-            <p>&nbsp;</p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
-    
-  </body>
-</html>
