@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/danborthwick
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://smartcasual.cc
+  * I am danborthwick (https://keybase.io/danborthwick) on keybase.
+  * I have a public key ASAQT9ytDu7Ac0vfRV0JjGbGDFDBb2NRBpKV679dNjST3Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120104fdcad0eeec0734bdf455d098c66c60c50c16f6351069295ebbf5d363493dd0a",
+      "host": "keybase.io",
+      "kid": "0120104fdcad0eeec0734bdf455d098c66c60c50c16f6351069295ebbf5d363493dd0a",
+      "uid": "819f944f442c74d016c9a8d002e40819",
+      "username": "danborthwick"
+    },
+    "merkle_root": {
+      "ctime": 1515565908,
+      "hash": "a9c18e0b854e62c998300fb931cf19149c93ba8d1664a249088a65c5c83336f675c74e337f7008efda65b8c3ab214b4fdb445564275afeec242c091990283c7f",
+      "hash_meta": "3e115e113d7d66792a5d6d9e5614f7adec8c889683ec46ecff635c268480e183",
+      "seqno": 1909659
+    },
+    "service": {
+      "hostname": "smartcasual.cc",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1515565930,
+  "expire_in": 504576000,
+  "prev": "1aae5215160bc4fc42bed20245c6de552ffcf86676fda4f16da2d5c7cf165029",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEE/crQ7uwHNL30VdCYxmxgxQwW9jUQaSleu/XTY0k90Kp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTA0ZmRjYWQwZWVlYzA3MzRiZGY0NTVkMDk4YzY2YzYwYzUwYzE2ZjYzNTEwNjkyOTVlYmJmNWQzNjM0OTNkZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMTA0ZmRjYWQwZWVlYzA3MzRiZGY0NTVkMDk4YzY2YzYwYzUwYzE2ZjYzNTEwNjkyOTVlYmJmNWQzNjM0OTNkZDBhIiwidWlkIjoiODE5Zjk0NGY0NDJjNzRkMDE2YzlhOGQwMDJlNDA4MTkiLCJ1c2VybmFtZSI6ImRhbmJvcnRod2ljayJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNTU2NTkwOCwiaGFzaCI6ImE5YzE4ZTBiODU0ZTYyYzk5ODMwMGZiOTMxY2YxOTE0OWM5M2JhOGQxNjY0YTI0OTA4OGE2NWM1YzgzMzM2ZjY3NWM3NGUzMzdmNzAwOGVmZGE2NWI4YzNhYjIxNGI0ZmRiNDQ1NTY0Mjc1YWZlZWMyNDJjMDkxOTkwMjgzYzdmIiwiaGFzaF9tZXRhIjoiM2UxMTVlMTEzZDdkNjY3OTJhNWQ2ZDllNTYxNGY3YWRlYzhjODg5NjgzZWM0NmVjZmY2MzVjMjY4NDgwZTE4MyIsInNlcW5vIjoxOTA5NjU5fSwic2VydmljZSI6eyJob3N0bmFtZSI6InNtYXJ0Y2FzdWFsLmNjIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zOCJ9LCJjdGltZSI6MTUxNTU2NTkzMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIxYWFlNTIxNTE2MGJjNGZjNDJiZWQyMDI0NWM2ZGU1NTJmZmNmODY2NzZmZGE0ZjE2ZGEyZDVjN2NmMTY1MDI5Iiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RACebz5vcsUpcA+HNGhcVmb+VqcIkLUTR1qmfjoM2ZpcgqY+abCsB3wcChzytBGHIPPOPbhp5kflILDDuwmS0yB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEgY92sEMJ69QJIbpWeKt1mtciI8gJb5a1NJDpw8ykZTo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danborthwick
+
+==================================================================
