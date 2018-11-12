@@ -8,7 +8,7 @@ title:  "Democracy Lab"
 [Democracy Lab](https://www.playreactive.com/democracylab) was a three day workshop run by game design collective [PlayReactive](https://www.playreactive.com/) on behalf of the [MOAD, the Museum of Australian Democracy](https://www.moadoph.gov.au/). In attendance were a varied assortment of sixteen Game Designers, Writers and Comic Artists, Historians, Technical Wizards and Stakeholders from the museum. At stake, the small matter of _Democracy_. What was it? What is it? Could an interactive museum exhibit help people to engage with it?
 <!--excerpt-->
 
-As an politics geek, and one with a big blank page where my knowledge of Australian democracy should be, this seemed like too good an opportunity to miss.
+As a politics nerd, and one with a big blank page where my knowledge of Australian democracy should be, this seemed like too good an opportunity to miss.
 
 The first part of the workshop saw wide-ranging discussion of history and concepts. Moods in the room swung between impassioned, frustrated and disengaged. Lack of representation of indigenous, non-male, young and queer people was felt across both _Democracy_ itself, and its representation in the media and cultural institutions. Was it legitimate to even attempt to create a celebration of _Democracy_ in a building faced by [an unsanctioned embassy for those displaced by the state](http://indigenousrights.net.au/land_rights/aboriginal_embassy,_1972) whose power it once hosted?
 
