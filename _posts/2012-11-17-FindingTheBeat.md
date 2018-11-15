@@ -1,10 +1,14 @@
 ---
 layout: post
 title:  "Finding the Beat"
+image: /img/blog/audiobeat.gif
 ---
+
+{% include blog-image.html name="audiobeat.gif" width="100%" %}
 
 _This post was originally written in 2012 during my time at [Hide&Seek](http://hideandseek.net) as part of a team enquiry into the use of 'time' in games. It originally appeared on the [Hide&Seek blog](http://hideandseek.net/blog)._
 
+<!--excerpt-->
 There is a version of this post in which I logged all of my network traffic, from all of my devices, for two weeks, and interpreted the data as audio. In the beautiful interactive timeline visualisation I produced, patterns appear. Human rhythms, work and play, rest and arousal. The pervasive digital hiss of our machines automatically organising themselves around us. Sudden slabs of noise as content is streamed and consumed.
 
 The data timeline doesn’t exist as a real thing, at least not yet. Between work, play and content consumption, it has yet to find a gap in the traffic. There’s also the issue of tracking signals across multiple 802.11 wi-fi channels to hack around. But when we started thinking about games and time, it immediately came to mind. What would be the sound of play?

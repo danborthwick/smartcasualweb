@@ -16,6 +16,8 @@ twitter_username: danborthwick
 github_username:  danborthwick
 google_analytics: UA-80922685-1
 
+excerpt_separator: <!--excerpt-->
+
 # Build settings
 markdown: kramdown
 

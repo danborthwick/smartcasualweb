@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Democracy Lab"
+image: img/blog/oldparliamenthouse.png
 ---
 
 {% include blog-image.html name="oldparliamenthouse.png" caption="Old Parliament House, Canberra" width="100%" %}
